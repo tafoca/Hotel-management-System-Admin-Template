@@ -1,0 +1,523 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Hotel Management System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Hotel Management System" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Bootstrap Core CSS -->
+<script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <!-- Portfolio-->
+    <link href="css/portfolio.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom CSS -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- font CSS -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+ <!-- js-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<!--webfonts-->
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+<!-- chart -->
+<script src="js/Chart.js"></script>
+<!-- //chart --> 
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+<!-- Metis Menu -->
+<script src="js/metisMenu.min.js"></script>
+<script src="js/custom.js"></script>
+<link href="css/custom.css" rel="stylesheet">
+<!--//Metis Menu -->
+</head> 
+<body class="cbp-spmenu-push">
+	<div class="main-content">
+		<!--left-fixed -navigation-->
+		<div class=" sidebar" role="navigation">
+            <div class="navbar-collapse">
+				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+					<ul class="nav" id="side-menu">
+						<li>
+							<a href="index.html" class="active"><i class="fa fa-home nav_icon"></i>Dashboard</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-cogs nav_icon"></i>View Tables <span class="nav-badge">12</span> <span class="fa arrow"></span></a>
+							
+							<!-- /nav-second-level -->
+						</li>
+						<li class="">
+							<a href="#"><i class="fa fa-book nav_icon"></i>Available Foods <span class="fa arrow"></span></a>
+							<ul class="nav nav-second-level collapse">
+								<li>
+									<a href="#">General<span class="nav-badge-btm">08</span></a>
+								</li>
+								<li>
+									<a href="#">Typography</a>
+								</li>
+							</ul>
+							<!-- /nav-second-level -->
+						</li>
+						
+						<li>
+							<a href="#"><i class="fa fa-envelope nav_icon"></i>Staff Details<span class="fa arrow"></span></a>
+							<ul class="nav nav-second-level collapse">
+								<li>
+									<a href="#">Inbox <span class="nav-badge-btm">05</span></a>
+								</li>
+								<li>
+									<a href="http://localhost/cafeadmin/chef.html">Chefs</a>
+								</li>
+							</ul>
+							<!-- //nav-second-level -->
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-table nav_icon"></i>Customers <span class="nav-badge">05</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-check-square-o nav_icon"></i>Food Stock Management<span class="fa arrow"></span></a>
+							<ul class="nav nav-second-level collapse">
+								<li>
+									<a href="#">Basic Forms <span class="nav-badge-btm">07</span></a>
+								</li>
+								<li>
+									<a href="#">Validation</a>
+								</li>
+							</ul>
+							<!-- //nav-second-level -->
+						</li>
+						
+						<li>
+							<a href="charts.html" class="chart-nav"><i class="fa fa-bar-chart nav_icon"></i>Charts <span class="nav-badge-btm pull-right">new</span></a>
+						</li>
+					</ul>
+					<div class="clearfix"> </div>
+					<!-- //sidebar-collapse -->
+				</nav>
+			</div>
+		</div>
+		<!--left-fixed -navigation-->
+		<!-- header-starts -->
+		<div class="sticky-header header-section ">
+			<div class="header-left">
+				<!--toggle button start-->
+				<button id="showLeftPush"><i class="fa fa-bars"></i></button>
+				<!--toggle button end-->
+				<!--logo -->
+				<div class="logo">
+					<a href="index.html">
+						<h1>NOVUS</h1>
+						<span>AdminPanel</span>
+					</a>
+				</div>
+				<!--//logo-->
+				<!--search-box-->
+				<div class="search-box">
+					<form class="input">
+						<input class="sb-search-input input__field--madoka" placeholder="Search..." type="search" id="input-31" />
+						<label class="input__label" for="input-31">
+							<svg class="graphic" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"/>
+							</svg>
+						</label>
+					</form>
+				</div><!--//end-search-box-->
+				<div class="clearfix"> </div>
+			</div>
+			<div class="header-right">
+				<div class="profile_details_left"><!--notifications of menu start -->
+					<ul class="nofitications-dropdown">
+						<li class="dropdown head-dpdn">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-envelope"></i><span class="badge">3</span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="notification_header">
+										<h3>You have 3 new messages</h3>
+									</div>
+								</li>
+								<li><a href="#">
+								   <div class="user_img"><img src="images/1.png" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet</p>
+									<p><span>1 hour ago</span></p>
+									</div>
+								   <div class="clearfix"></div>	
+								</a></li>
+								<li class="odd"><a href="#">
+									<div class="user_img"><img src="images/2.png" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet </p>
+									<p><span>1 hour ago</span></p>
+									</div>
+								  <div class="clearfix"></div>	
+								</a></li>
+								<li><a href="#">
+								   <div class="user_img"><img src="images/3.png" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet </p>
+									<p><span>1 hour ago</span></p>
+									</div>
+								   <div class="clearfix"></div>	
+								</a></li>
+								<li>
+									<div class="notification_bottom">
+										<a href="#">See all messages</a>
+									</div> 
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown head-dpdn">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-bell"></i><span class="badge blue">3</span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="notification_header">
+										<h3>You have 3 new notification</h3>
+									</div>
+								</li>
+								<li><a href="#">
+									<div class="user_img"><img src="images/2.png" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet</p>
+									<p><span>1 hour ago</span></p>
+									</div>
+								  <div class="clearfix"></div>	
+								 </a></li>
+								 <li class="odd"><a href="#">
+									<div class="user_img"><img src="images/1.png" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet </p>
+									<p><span>1 hour ago</span></p>
+									</div>
+								   <div class="clearfix"></div>	
+								 </a></li>
+								 <li><a href="#">
+									<div class="user_img"><img src="images/3.png" alt=""></div>
+								   <div class="notification_desc">
+									<p>Lorem ipsum dolor amet </p>
+									<p><span>1 hour ago</span></p>
+									</div>
+								   <div class="clearfix"></div>	
+								 </a></li>
+								 <li>
+									<div class="notification_bottom">
+										<a href="#">See all notifications</a>
+									</div> 
+								</li>
+							</ul>
+						</li>	
+						<li class="dropdown head-dpdn">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-tasks"></i><span class="badge blue1">15</span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="notification_header">
+										<h3>You have 8 pending task</h3>
+									</div>
+								</li>
+								<li><a href="#">
+									<div class="task-info">
+										<span class="task-desc">Database update</span><span class="percentage">40%</span>
+										<div class="clearfix"></div>	
+									</div>
+									<div class="progress progress-striped active">
+										<div class="bar yellow" style="width:40%;"></div>
+									</div>
+								</a></li>
+								<li><a href="#">
+									<div class="task-info">
+										<span class="task-desc">Dashboard done</span><span class="percentage">90%</span>
+									   <div class="clearfix"></div>	
+									</div>
+									<div class="progress progress-striped active">
+										 <div class="bar green" style="width:90%;"></div>
+									</div>
+								</a></li>
+								<li><a href="#">
+									<div class="task-info">
+										<span class="task-desc">Mobile App</span><span class="percentage">33%</span>
+										<div class="clearfix"></div>	
+									</div>
+								   <div class="progress progress-striped active">
+										 <div class="bar red" style="width: 33%;"></div>
+									</div>
+								</a></li>
+								<li><a href="#">
+									<div class="task-info">
+										<span class="task-desc">Issues fixed</span><span class="percentage">80%</span>
+									   <div class="clearfix"></div>	
+									</div>
+									<div class="progress progress-striped active">
+										 <div class="bar  blue" style="width: 80%;"></div>
+									</div>
+								</a></li>
+								<li>
+									<div class="notification_bottom">
+										<a href="#">See all pending tasks</a>
+									</div> 
+								</li>
+							</ul>
+						</li>	
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+				<!--notification menu end -->
+				<div class="profile_details">		
+					<ul>
+						<li class="dropdown profile_details_drop">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+								<div class="profile_img">	
+									<span class="prfil-img"><img src="images/a.png" alt=""> </span> 
+									<div class="user-name">
+										<p>Wikolia</p>
+										<span>Administrator</span>
+									</div>
+									<i class="fa fa-angle-down lnr"></i>
+									<i class="fa fa-angle-up lnr"></i>
+									<div class="clearfix"></div>	
+								</div>	
+							</a>
+							<ul class="dropdown-menu drp-mnu">
+								<li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li> 
+								<li> <a href="#"><i class="fa fa-user"></i> Profile</a> </li> 
+								<li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>	
+			</div>
+			<div class="clearfix"> </div>	
+		</div>
+		<!-- //header-ends -->
+		<!-- main content start-->
+		<section class="pb-sm-5 py-4 team-agile" id="team">
+        <div class="container py-md-5">
+            <div class="title-w3ls text-center">
+                <h4 class="w3pvt-title">OUR EXPERT CHEFS
+                </h4>
+            </div>
+            <div class="d-flex team-agile-row pt-sm-5 pt-3">
+                <div class="col-lg-4 col-md-6">
+                    <div class="box20">
+                        <img src="images/t2.jpg" alt="" class="img-fluid" />
+                        <div class="box-content">
+                            <h3 class="title">willimson</h3>
+                            <span class="post">Designation</span>
+                        </div>
+                        <ul class="icon">
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-plus"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-link"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+                    <div class="box20">
+                        <img src="images/t3.jpg" alt="" class="img-fluid" />
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Designation</span>
+                        </div>
+                        <ul class="icon">
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-plus"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-link"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-0 mt-4 mx-auto">
+                    <div class="box20">
+                        <img src="images/t1.jpg" alt="" class="img-fluid" />
+                        <div class="box-content">
+                            <h3 class="title">franklin</h3>
+                            <span class="post">Designation</span>
+                        </div>
+                        <ul class="icon">
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-plus"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-link"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- js -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!-- //js -->
+    <!-- testimonials  Responsiveslides -->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use"$(window).load(function() {"
+        $(function () {
+            // Slideshow 4
+            $("#slider3").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: false,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+
+        });
+    </script>
+    <!-- //testimonials  Responsiveslides -->
+    <!-- Portfolio -->
+    <script src="js/jquery.picEyes.js"></script>
+    <script>
+        $(function () {
+            //picturesEyes($('.demo li'));
+            $('.demo li').picEyes();
+        });
+    </script>
+    <!-- //Portfolio -->
+    <!-- script for password match -->
+    <script>
+        window.onload = function () {
+            document.getElementById("password1").onchange = validatePassword;
+            document.getElementById("password2").onchange = validatePassword;
+        }
+
+        function validatePassword() {
+            var pass2 = document.getElementById("password2").value;
+            var pass1 = document.getElementById("password1").value;
+            if (pass1 != pass2)
+                document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+            else
+                document.getElementById("password2").setCustomValidity('');
+            //empty string means no validation error
+        }
+    </script>
+    <!-- script for password match -->
+    <script src="js/counter.js"></script>
+    <!-- start-smooth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="js/SmoothScroll.min.js"></script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+		<!--footer-->
+		<div class="footer">
+		   <p>&copy; 2019 Hotel Management System | All Rights Reserved | Designed by: <a href="https://cosmioinfotech.com/" target="_blank">Cosmio Infotech Pvt. Ltd</a></p>
+		</div>
+        <!--//footer-->
+	</div>
+	<!-- Classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				body = document.body;
+				
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+			
+			function disableOther( button ) {
+				if( button !== 'showLeftPush' ) {
+					classie.toggle( showLeftPush, 'disabled' );
+				}
+			}
+		</script>
+	<!--scrolling js-->
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/scripts.js"></script>
+	<!--//scrolling js-->
+	<!-- Bootstrap Core JavaScript -->
+   <script src="js/bootstrap.js"> </script>
+</body>
+</html>
